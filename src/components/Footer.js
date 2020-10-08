@@ -10,10 +10,10 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content- between p-3">
                     <Col className="p-0 md={3} sm={12}">
-                        Bobby Jones
+                        Robert Jones Jr.
                     </Col>
                     <Col className="p-0 justify-content-end" md={3}>
-                        This site was Created by Robert Jones.
+                        This site was Created by Robert Jones Jr.
                     </Col>
                 </Row>
             </Container>
