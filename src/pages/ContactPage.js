@@ -1,4 +1,5 @@
 import React from 'react';
+import Background from '../assets/images/AbstractBackground2.jpg';
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -69,6 +70,7 @@ class ContactPage extends React.Component {
 
     render() {
         return(
+        <div style={{ background: `url(${Background})`, }}>
             <div>
                 <Hero title={this.props.title} />
 
@@ -102,6 +104,7 @@ class ContactPage extends React.Component {
                     </Form>
                 </Content>
             </div>
+        </div>
         );
     }
 

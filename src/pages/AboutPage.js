@@ -1,4 +1,5 @@
 import React from 'react';
+import Background from '../assets/images/AbstractBackground3.jpg';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
@@ -6,6 +7,7 @@ import Content from '../components/Content';
 function AboutPage(props) {
     
     return(
+    <div style={{ background: `url(${Background})`, }}>
         <div>
             <Hero title={props.title} />
 
@@ -21,6 +23,7 @@ function AboutPage(props) {
             <p> During My free time I enjoy fishing, camping, playing videogames and spending quality time with my family.</p>
             </Content>
         </div>
+    </div>
     );
 }
 
