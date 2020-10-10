@@ -19,7 +19,7 @@ class Carousel extends React.Component {
                     subTitle: 'Create Your Own Burger.',
                     imgSrc: burger,
                     link: 'https://eat-da-burger-42830.herokuapp.com/',
-                    selected: 'false'
+                    selected: false
                 },
                 {
                     id: 1,
@@ -27,7 +27,7 @@ class Carousel extends React.Component {
                     subTitle: 'Generates a random password.',
                     imgSrc: passwordGenerator,
                     link: 'https://jones9682.github.io/Password-Generator/',
-                    selected: 'false'
+                    selected: false
                 },
                 {
                     id: 2,
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                     subTitle: 'Infection data travel destination App.',
                     imgSrc: covid19TravelAssistant,
                     link: 'https://millhouse36.github.io/Covid-19-contact-tracing-and-data-app/',
-                    selected: 'false'
+                    selected: false
                 },
             ]
 
