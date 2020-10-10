@@ -13,7 +13,7 @@ function Footer() {
                         Robert Jones Jr.
                     </Col>
                     <Col className="p-0 justify-content-end" md={3}>
-                    &copy; Copyright 2020 Robert Jones Jr.
+                    &copy; Copyright 2020 Site created by Robert Jones Jr.
                     </Col>
                 </Row>
             </Container>
